@@ -4,4 +4,29 @@ light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
-*/
+/* */
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  height: 20vh;
+  align-items: center;
+}
+
+.beer-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.beer-card {
+  display: flex;
+  /* flex-flow: column nowrap; */
+  width: 30vw; 
+  margin: 0;
+}
+
+/* .beer-card,
+.beer-name {
+  padding: 10px;
+} */

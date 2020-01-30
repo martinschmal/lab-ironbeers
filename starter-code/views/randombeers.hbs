@@ -1,0 +1,18 @@
+<h1>Random Beer</h1>
+<div class="beer-container">
+<div class="beer-card">
+
+ {{#each randomBeer}}
+
+ {{> beercard}}
+     
+ <p>Brewer tipp:{{this.brewers_tips}}</p>
+ <p>Foodparing: {{#each this.food_pairing}}
+                    <span><li>{{this}}</li></span>
+
+                {{/each}}
+    </p> 
+    
+  {{/each}}
+
+</div>
